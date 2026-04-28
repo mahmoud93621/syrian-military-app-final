@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # الاتصال بقاعدة البيانات
 # --------------------------------------------
 def get_connection():
-    postgresql://neondb_owner:npg_o5AUFeRY0bEc@ep-orange-heart-alzvcg78-pooler.c-3.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+    postgresql://postgres:[YOUR-PASSWORD]@db.hsavyxiortmgmupnshkj.supabase.co:5432/postgres
         database="names_db",
         user="postgres",
         password="admin01"
