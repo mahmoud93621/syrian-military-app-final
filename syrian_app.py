@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 # --------------------------------------------
 def get_connection():
     postgresql://postgres:[YOUR-PASSWORD]@db.hsavyxiortmgmupnshkj.supabase.co:5432/postgres
-        database="names_db",
         user="postgres",
         password="admin01"
     )
